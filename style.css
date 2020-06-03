@@ -1,0 +1,35 @@
+.bg-navbar{
+  background: #C1C0D0;
+}
+.bg-button{
+  background: #C1C0D0;  
+}
+.bg-button:hover{
+  background: #ACABBC;
+}
+
+.nav-link {
+    border-top: 2px solid #C1C0D0;
+    border-bottom: 2px solid #C1C0D0;
+}
+.nav-link:hover {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+     opacity: 1;
+    transition: all 0.3s;
+}
+
+
+input[type=datetime-local].form-control{
+  line-height: 2.25rem;
+  line-height: inherit;
+}
+
+.del_inp a{
+  text-decoration: none;
+  color: #000;
+}
+.del_inp a:hover{
+  text-decoration: none;
+  color: #000;
+}
