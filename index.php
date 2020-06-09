@@ -15,10 +15,10 @@ if ($_SESSION['ID'] != 0) {
         echo $_SERVER['HTTP_HOST']."<br>".$_SERVER['REQUEST_URI']."<br>".$file;*/
 
 
-    if (isset($_REQUEST["page"]))
-        include($_REQUEST["page"] . ".php");
-    else
-        include_once("blocks/disc_list.php");
+    if (isset($_REQUEST["page"])){include($_REQUEST["page"] . ".php");}
+
+    else{include_once("blocks/disc_list.php");}
+    include_once ('footer.php');
 } else {
     include('blocks/sign_IN.php');
 }

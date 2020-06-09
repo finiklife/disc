@@ -4,11 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!-- Bootstrap CSS -->
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
     <title>
         Активный гражданин Оренбургской области!
     </title>

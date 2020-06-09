@@ -1,13 +1,17 @@
 <div class="container">
     <div class="add_but">
-        <a class="btn bg-button m-2" href="?page=blocks/disc_add.php">
+        <a class="btn bg-button m-2" href="?page=blocks/disc_add">
             Создать обсуждение
         </a>
     </div>
     <?php
     $house = mysqli_query($link, "SELECT * FROM `votes` WHERE `ID_house`='" . $_SESSION['ID_house'] . "'");
+  //  for ($i = 0; $i < mysqli_num_rows($house); $i++) {};
     for ($i = 0; $i < mysqli_num_rows($house); $i++) {
         $ID_house = mysqli_fetch_array($house, MYSQLI_ASSOC);
+      //  echo '<pre>';
+       // echo $ID_house;
+      //  echo '</pre>';
         print_r(' <div class="discussion1 mb-3">
         <div class="card text-center">
             <div class="card-header">
