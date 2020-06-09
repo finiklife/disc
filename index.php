@@ -20,6 +20,5 @@ if ($_SESSION['ID'] != 0) {
     else
         include_once("blocks/disc_list.php");
 } else {
-    echo 'sdfsdf';
     include('blocks/sign_IN.php');
 }
