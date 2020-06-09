@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9a0d620-66ec-488d-b51a-87b6d8c79fc0" name="disc" url="http://37.140.192.24">
+        <fileTransfer host="37.140.192.24" port="21" rootFolder="/www/lavkabonapart.ru/disc">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
