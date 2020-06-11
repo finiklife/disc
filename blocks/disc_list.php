@@ -26,7 +26,7 @@
                 <p class="card-text">');
         echo $ID_house['text'];
         print_r('</p>
-                <a class="btn bg-button" href="#">
+                <a class="btn bg-button" href="?page=blocks/disc_about">
                     Перейти к обсуждению
                 </a>
             </div>

@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="row">
-    <div class="col-4 mx-auto">
-        <form method="post" action="function/sign_IN_scripts.php">
+<div class="row mx-0 justify-content-center">
+    <div class="">
+        <form method="post" action="function/sign_IN_scripts.php" class="p-2">
             <div class="form-group">
                 <label for="exampleInputEmail1">Логин</label>
                 <input name="login" type="text" id="inputText" class="form-control" placeholder="Email" required=""
@@ -34,7 +34,11 @@
         </form>
     </div>
 
-</div>
+    </div>
+
+
+
+
 
 
 </body>
